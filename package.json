@@ -1,0 +1,22 @@
+{
+	"name": "polaris-bot",
+	"version": "0.0.1",
+	"description": "A Discord bot for my friend's server. ",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"install": "npm i discord.js @discordjs/rest discord-api-types@latest @discordjs/builders --save-prod"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/codedipper/polaris-bot.git"
+	},
+	"author": "Revvy",
+	"license": "MIT",
+	"dependencies": {
+		"@discordjs/builders": "^0.5.0",
+		"@discordjs/rest": "^0.1.0-canary.0",
+		"discord-api-types": "^0.22.0",
+		"discord.js": "^13.1.0"
+	}
+}
